@@ -31,3 +31,55 @@ print("Заменяем 'sample' на 'new':", new_text)
 # метод str.split() - разбивает строку на подстроки по указанному разделителю
 words = text.split(" ")
 print("Слова в строке:", words)
+
+# 2esep
+
+
+# students = []
+# while True:
+#     name = input("Введите фамилию ученика (или Enter для завершения): ")
+#     if not name:
+#         break
+#     grade = int(input("Введите класс ученика: "))
+#     students.append((name, grade))
+
+# students.sort(key=lambda x: x[1])
+
+# print("Список учеников по возрастанию классов:")
+# for student in students:
+#     print(f"{student[0]} - {student[1]} класс")
+
+
+# 3esep
+
+
+# s = input("Введите строку: ")
+# upper_count = 0
+# lower_count = 0
+# for c in s:
+#     if c.isupper():
+#         upper_count += 1
+#     elif c.islower():
+#         lower_count += 1
+# if upper_count > lower_count:
+#     s = s.upper()
+# else:
+#     s = s.lower()
+# print(s)
+
+
+# 4esep
+
+
+# while True:
+#     num1 = input("Введите первое число: ")
+#     num2 = input("Введите второе число: ")
+
+#     if num1.isdigit() and num2.isdigit():
+#         num1 = int(num1)
+#         num2 = int(num2)
+#         print(f"Сумма чисел: {num1 + num2}")
+#         break
+#     else:
+#         print("Ошибка: необходимо ввести целые числа!")
+
